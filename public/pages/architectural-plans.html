@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Architectural Plans - Property Pro</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
@@ -14,7 +14,7 @@
             <h1 class="site-name">Property Pro</h1>
         </div>
         <nav class="navbar">
-            <a href="index.html">Home</a>
+            <a href="../index.html">Home</a>
             <a href="architectural-plans.html">Plans</a>
         </nav>
     </header>
@@ -22,25 +22,25 @@
         <h2>Explore Architectural Plans</h2>
         <div class="plans-grid">
             <div class="plan">
-                <img src="plan1.jpg" alt="Plan 1">
+                <img src="../assets/images/plan1.jpg" alt="Plan 1">
                 <h3>Plan 1</h3>
                 <p>Description of Plan 1</p>
                 <button onclick="openPaymentForm('Plan 1', 10000)">Buy Plan 1 - $100</button>
             </div>
             <div class="plan">
-                <img src="plan2.jpg" alt="Plan 2">
+                <img src="../assets/images/plan2.jpg" alt="Plan 2">
                 <h3>Plan 2</h3>
                 <p>Description of Plan 2</p>
                 <button onclick="openPaymentForm('Plan 2', 15000)">Buy Plan 2 - $150</button>
             </div>
             <div class="plan">
-                <img src="plan3.jpg" alt="Plan 3">
+                <img src="../assets/images/plan3.jpg" alt="Plan 3">
                 <h3>Plan 3</h3>
                 <p>Description of Plan 3</p>
                 <button onclick="openPaymentForm('Plan 3', 20000)">Buy Plan 3 - $200</button>
             </div>
             <div class="plan">
-                <img src="plan4.jpg" alt="Plan 4">
+                <img src="../assets/images/plan4.jpg" alt="Plan 4">
                 <h3>Plan 4</h3>
                 <p>Description of Plan 4</p>
                 <button onclick="openPaymentForm('Plan 4', 25000)">Buy Plan 4 - $250</button>
@@ -62,7 +62,7 @@
         <div id="mpesa-form-container" style="display: none;">
             <h2 id="mpesa-plan-name"></h2>
             <form id="mpesa-form">
-                <img src="mpesa-logo.png" alt="M-PESA Logo" width="100">
+                <img src="../assets/images/mpesa-logo.png" alt="M-PESA Logo" width="100">
                 <label for="phone-number">Phone Number:</label>
                 <input type="text" id="phone-number" name="phone-number" required>
                 <button id="submit-mpesa-payment">Pay with M-PESA</button>
@@ -75,7 +75,7 @@
         <p>&copy; 2024 Property Pro. All rights reserved.</p>
     </footer>
 
-    <script src="payment.js"></script>
+    <script src="../assets/js/payment.js"></script>
 </body>
 </html>
 
